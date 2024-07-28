@@ -10,3 +10,56 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+
+/* 
+
+    You can write your own styles here...
+    
+    
+    ...Or you can use the import command to include 
+    other sylesheets into your bunde as well, e.j:
+    
+    import 'relative/path/to/stylesheet.scss';
+
+*/
+
+* {
+    background-image: url('https://img.freepik.com/foto-gratis/japon-calle-dia_23-2148942935.jpg?t=st=1722199430~exp=1722203030~hmac=3535cfa736914943267ba2f7dee6e23c6463276c1864d1a2cec66ac5d809a6b8&w=2000');
+    background-size: cover; /* Esto hará que la imagen cubra todo el fondo */
+    background-repeat: no-repeat; /* Esto evitará que la imagen se repita */
+    background-attachment: fixed; /* Esto hará que el fondo sea fijo cuando se desplaza la página */
+    background-position: center; /* Esto centrará la imagen en el fondo */
+}
+
+.traffic-light{
+    background: black;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    margin: auto;
+    margin-left: 45%;
+    margin-bottom: 50%;
+}
+.stick {
+	width: 20px;
+	height: 200px;
+	background-color: black;
+    margin-left: 48.2%;
+    
+}
+
+
+.light{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: blue;
+
+}
+.red{background: red;}
+.yellow{background: yellow ;}
+.green{background: green;}
+.glow{
+    box-shadow: 0px 0px 9px 4px #ece46f;
+}
